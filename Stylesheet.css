@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEED6;
+    color: #2B061E;
+}
+
+a {
+    color: #875053; 
+}
+
+a:hover {
+    color: #2B061E;
+}
+
+
+header, footer {
+    background-color: #2B061E;
+    color: #FBBFCA;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav ul{
+    background-color: #D2BF55;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display:inline;
+    margin-right: 10px;;
+}
+
+#page {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#properties{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+#properties > div{
+    flex: 1;
+}
+#properties div p{
+    text-align: center;
+}
+#properties img{
+    width:100%;
+}
+
+.social-media{
+    display: flex;
+    margin: 40px 0;
+}
+
+.social-media {
+    margin: 0 10px;
+}
+
+.social-media img{
+    width: 40px;
+    height: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    flex: 1;
+}
+.content{
+    flex: 4;
+    padding: 1em;
+}
+
+main div img{
+    width: 300px;
+    height: auto;
+    padding: 2em;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+#first_name{
+    padding: 0.4em;
+}
+
+#last_name{
+    padding: 0.4em;
+}
+
+#mobile_number{
+    padding: 0.4em;
+}
+
+#email_Id{
+    padding: 0.4em;
+}
+
+#feedback{
+    padding: 0.4em;
+}
+  
+@media screen and (min-width: 40em) { 
+  #page {
+    max-width: 40em;
+  }
+  #properties{
+    flex-direction: row;
+  }
+  
+}
+  
+@media screen and (min-width: 64em) { 
+  #page {
+    max-width: 64em;
+  }
+}
+@media screen and (min-width: 90em) { 
+    #page {
+      max-width: 90em;
+    }
+}
+
+
